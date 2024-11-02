@@ -8,5 +8,5 @@ def find_subsets(s):
             subsets.append(s[element:element1])
     return subsets
 
-input_set = input("enter a string")
+input_set = input("enter a string:")
 print("all substring", find_subsets(input_set))
